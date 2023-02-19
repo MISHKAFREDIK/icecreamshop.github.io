@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+header {}
+
+header .container {
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 245px;
+    padding-right: 230px;
+}
+
+.nav-block {
+    width: 402px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-block a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 0.6;
+}
+
+.nav-block a:nth-child(1) {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #D23166;
+}
+
+button {
+    background: #D23166;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 50px;
+    color: white;
+}
+
+.one {
+    margin-right: 70px;
+    padding-top: 126px;
+    padding-left: 254px;
+    padding-bottom: 146px;
+    background-color: #fbf0f4;
+}
+
+.one .container-one p:nth-child(1) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+    margin: 0;
+}
+
+.one .container-one h1 {
+    margin: 0;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+}
+
+.one .container-one h1 span {
+    color: #D23166;
+}
+
+.one .container-one p:nth-last-child(2) {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+}
+
+.one .container-one button {
+    margin-top: 50px;
+}
+
+.container-one {
+    max-width: 665px;
+    flex-shrink: 3;
+
+}
+
+.one {
+    display: flex;
+    align-items: center;
+
+}
+
+.one figure {}
+
+.one figure img {
+    width: 100%;
+    max-width: 597px;
+    height: 100%;
+    max-height: 597px;
+    height: auto;
+    flex-shrink: 2;
+    /* background-image: url(/img/Ellipse\ 182.png);
+    background-repeat: no-repeat;
+    background-position: bottom; */
+
+}
+
+.two {
+    display: flex;
+    max-width: 1117px;
+    height: 200px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    gap: 39px 39px;
+    margin-bottom: 100px;
+
+
+}
+
+.two .item {
+    width: 250px;
+    height: 200px;
+    /* border: 1px solid black; */
+    background: #FFFFFF;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 26px;
+    font-family: 'Hind Madurai';
+    font-style: normal;   
+}
+
+.two .item h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.two .item p {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 0.6;
+}
