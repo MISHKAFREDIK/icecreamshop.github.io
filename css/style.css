@@ -6,9 +6,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
+
 }
 
-header {}
+header {
+    background-color: #fbf0f4;
+
+}
 
 header .container {
     height: 79px;
@@ -53,10 +57,11 @@ button {
 }
 
 .one {
-    margin-right: 70px;
     padding-top: 126px;
     padding-left: 254px;
     padding-bottom: 146px;
+    /* max-width: 1317px;
+    margin: 0 auto; */
     background-color: #fbf0f4;
 }
 
