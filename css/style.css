@@ -183,7 +183,6 @@ button:hover {
     height: 544px;
     /* border: 1px solid black; */
     display: flex;
-    background: #F8EDF0;
     align-items: center;
     box-sizing: content-box;
     padding: 0 30px;
@@ -590,7 +589,6 @@ footer {
 
     .section3 figure img {
         width: 100%;
-
         max-width: 150px;
 
     }
